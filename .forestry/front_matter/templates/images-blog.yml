@@ -1,4 +1,14 @@
 ---
 label: images blog
 hide_body: false
-fields: []
+fields:
+- name: titre
+  type: text
+  config:
+    required: false
+  label: titre
+- name: imgae
+  type: file
+  config:
+    maxSize: 64
+  label: imgae
